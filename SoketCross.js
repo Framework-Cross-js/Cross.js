@@ -1,11 +1,10 @@
-import { Electron } from './Cross';
-import { Electro } from './Cross';
-
+import { Cross } from './Cross';
 
 console.log(tabularData)
 
-Electron.message('container');
-Electro.message('container');
+Cross.message('container');
+Cross.message('container');
 
-Electron.launch();
-Electron.config(); 
+Cross.launch();
+Cross.config();
+
