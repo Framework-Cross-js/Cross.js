@@ -1,7 +1,7 @@
 # все примеры Cross.js фреймворка показаны в папке SoketCross.js
 
 # 0.0.1 релиз вышел 1 Января 2022г.
-# Liscense :
+# License:
 * MIT
 
 # Cross.js
