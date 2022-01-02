@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Framework Cross</title>
+<link rel="stylesheet" href="style.css">
+
+<!-- это для Cross.js стилизации -->
+<link rel="stylesheet" href="Framework_Cross/CreateFrontend/input.css">
+  
+</head>
+<body>
+  <div id="progress"></div>
+  <div id="app"></div>
+ 
+  <cross-commands color='lime'>
+      {{ progress }} 
+<!-- при повторном использовании этого шаблона в этом компоненте не будет использоваться контент -->
+  {{  progress }}
+  </cross-commands>
+  
+ <!--<cross-timezone></cross-timezone>-->
+ 
+  <cross-anonimus>Easy!</cross-anonimus>
+  <cross-anonimus></cross-anonimus>
+  
+<!-- Framework Cross -->
+<script type="module"src="SoketCross.js">
+</script>
+</body>
+</html>
