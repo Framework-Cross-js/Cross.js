@@ -1,0 +1,30 @@
+.to-cross-input-success {
+  border-radius:5px;
+  border: 0px solid;
+  height: 20px;
+  text-indent: 3px;
+  outline-color:white;
+  --bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.15));
+}
+
+.cross-input-front-text {
+  border: 1px solid White;
+  border-radius:50px;
+  width:180px;
+  height:40px;
+  background: darkorange;
+  color:white;
+  font-family:  monospace ;
+  margin-left:20px;
+  padding-left: 5px ;
+  padding-right: 5px;
+  text-align:center;
+}
+
+.cross-input-front-text:hover{
+  background: white ;
+  outline-color:#13EC92;
+  color:darkorange ;
+  border: 1px solid darkorange;
+}
+
