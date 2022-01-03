@@ -1,5 +1,5 @@
 # все примеры Cross.js фреймворка показаны в папке SoketCross.js
-SoketCross.js - примеры
+SoketCross.js - примеры <br>
 index.html - About (Главная)
 
 # 0.0.1 релиз вышел 1-2 Января 2022г.
