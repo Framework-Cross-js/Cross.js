@@ -5,10 +5,10 @@ import { HTTP } from '/Framework_Cross/ HTTPCross/HTTPCross.js';
 // импортируем терминал для cmd 📤
 import { Terminal } from './Cross.js';
 
-//import { createTemplate }           from './Framework_Cross/CreateFrontend/createInput.js';
+//import { createTemplate }  from './Framework_Cross/CreateFrontend/createInput.js';
 
 // это полный  импорт для фронтендера 📤
-import * as CreateFrontend          from './Framework_Cross/CreateFrontend/createInput.js'; 
+import * as CreateFrontend from './Framework_Cross/CreateFrontend/createInput.js'; 
 
 //launcher.launcheron();
 
