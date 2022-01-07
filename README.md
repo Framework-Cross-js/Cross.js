@@ -2,8 +2,10 @@
 <p>SoketCross.js - примеры</p>
 <p>index.html - About (Главная)</p>
 
-*Посмотреть изменения можно: [CHANGELOG.md](CHANGELOG.md)*
 
+# 0.5.0 релиз вышел 1-2 Января 2022г.
+>#### *<p>Посмотреть изменения можно: [CHANGELOG.md](CHANGELOG.md)</p>*
+>#### *[тут можно посмотреть результат в браузере.](https://htmlpreview.github.io/?https://github.com/Framework-Cross-js/Cross.js/blob/main/index.html)*
 >#### *src/app.js - новые примеры*
 >#### *МЫ БУДЕМ РАДЫ ЕСЛИ ВЫ СООБЩИТЕ НАМ О БАГАХ))*
 
