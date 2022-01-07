@@ -21,6 +21,3 @@ const config = {
 }
 
 module.exports = config;
-
-var user = require('Messages.js');
-var vasya = new user.User("Вася");
