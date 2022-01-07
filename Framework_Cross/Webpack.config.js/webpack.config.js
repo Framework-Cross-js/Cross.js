@@ -4,10 +4,10 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
   mode: 'development',
-  entry: './SoketCross.js',
+  entry: './Cross.js',
   "watch": "webpack --watch", 
   output: {
-    filename: '[name].bundle.js',
+    filename: 'Cross.js',
     path: path.resolve(__dirname, 'dist'),
      clean: true, 
   }, 
