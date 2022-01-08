@@ -27,6 +27,12 @@ package name: (myproject) example-cross-js
 > node -v
 v16.13.0
 ```
+
+```npm
+> npm -v
+8.1.0
+```
+
 # 0.0.1 version
 <ol>
     <li>Создание компонентов и правильность иих валидации.</li>
