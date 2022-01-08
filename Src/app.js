@@ -6,5 +6,5 @@ Cross.power();
 new Cross.Cross('true');
 new Cross.createApp({
     el: 'app',
-    text: 'Cross.js'
+    text: 'Framework Cross.js'
 });
