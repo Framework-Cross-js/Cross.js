@@ -23,7 +23,10 @@ package name: (myproject) example-cross-js
 > example-cross-js@0.0.1 start
 > webpack --watch
 ```
-
+```npm
+> node -v
+v16.13.0
+```
 # 0.0.1 version
 <ol>
     <li>Создание компонентов и правильность иих валидации.</li>
