@@ -1,3 +1,5 @@
+[![Cross.js]]()
+
 # все примеры Cross.js фреймворка показаны в папке SoketCross.js
 <p>SoketCross.js - примеры</p>
 <p>index.html - About (Главная)</p>
