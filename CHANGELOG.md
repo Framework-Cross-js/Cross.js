@@ -15,6 +15,7 @@ ress ^C at any time to quit.
 package name: (myproject) example-cross-js
 ========================================================
 */
+ npm run start
 ```
 
 # 0.0.1 version
