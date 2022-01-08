@@ -18,6 +18,12 @@ package name: (myproject) example-cross-js
  npm run start
 ```
 
+После этого у вас должно появиться в терминале(автор,как разработчик использовал редактор VS code):
+```npm
+> example-cross-js@0.0.1 start
+> webpack --watch
+```
+
 # 0.0.1 version
 <ol>
     <li>Создание компонентов и правильность иих валидации.</li>
