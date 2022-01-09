@@ -4,8 +4,8 @@ console.log('webpack hello!');
 //new Cross.App('true');
 // /powerlevel.js
 let Cross = require('./powerlevel.js');
-  //let func = () => "hi";
-//func.repeat(5);
+let func = () => "hi";
+func.repeat(5);
 new Cross.power().repeat(5);
 
 new Cross.App('true');
