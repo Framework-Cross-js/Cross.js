@@ -1,0 +1,23 @@
+{
+  "name": "cross-ascii",
+  "version": "1.0.0",
+  "description": "ASCII",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install ascii",
+    "give-ascii" : "echo \"ASCII\" ",
+    "give-code" : "echo \" CODE: ASCII\" ",
+    "install-homepage": "npm install README.md",
+    "give-ascii-token": "echo \"12358023678\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Framework-Cross-js/Cross.js.git"
+  },
+  "author": "E5war5IT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Framework-Cross-js/Cross.js/issues"
+  },
+  "homepage": "https://github.com/Framework-Cross-js/Cross.js#readme"
+}
