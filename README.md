@@ -9,6 +9,7 @@
 >#### *src/app.js - новые примеры*
 >#### *МЫ БУДЕМ РАДЫ ЕСЛИ ВЫ СООБЩИТЕ НАМ О БАГАХ))*
 >#### *[sponsor or donated](https://github.com/sponsors/Framework-Cross-js?preview=true)*
+>[ASCII](https://htmlpreview.github.io/?https://github.com/Framework-Cross-js/Cross.js/blob/main/ASCII/indexES6.html)
 
 # 0.0.1 релиз вышел 1-2 Января 2022г.
 # License:
