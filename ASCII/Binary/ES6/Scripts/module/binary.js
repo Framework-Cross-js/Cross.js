@@ -2,9 +2,7 @@ let log = console.log;
 let warn = console.warn;
 let on;
 
-let $ = function(id){
-  return document.getElementById(id)
-}
+let $ = function(id){ return document.getElementById(id) }
 
 export class DeCode {
   number = {
@@ -72,7 +70,6 @@ Object.prototype.ETN = (code,lang) => {
 01001101 M
 01001110 N
 01001111 O
-
 */
 
 export function EncodeApp(el) {
@@ -86,13 +83,3 @@ export function EncodeApp(el) {
   $(el).innerHTML = result;
 
 };
-
-export function EncodeScript(id){
-  this.id = id;
-  let elems = $(id).innerHTML;
-  
-  let result =
-  elems.replace(/1/g, 'a').replace(/2/g, 'l').replace(/3/g,'e').replace(/4/g, 'r').replace(/5/g, 't').replace(/0/g, '')
-  
-  $(id).innerHTML = result.strike()
-}
