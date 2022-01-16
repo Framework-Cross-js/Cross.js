@@ -9,7 +9,10 @@ import { Terminal } from './Cross.js';
 
 // это полный  импорт для фронтендера 📤
 import * as CreateFrontend from './Framework_Cross/CreateFrontend/createInput.js'; 
-
+// Canvas
+import {  Application } from './Framework_Cross/CrossApplication/CrossCanvas.js';
+// Способы создания компонентов:
+import * as Component from './Framework_Cross/Components/CrossComponents.js';
 //launcher.launcheron();
 
 new Terminal('terminal','on');
@@ -74,10 +77,7 @@ CreateFrontend.createInput({
   }
 });
 
-/*
-можем так отправлять сообщения в console
-*/
-
+// можем так отправлять сообщения в console
 Cross.message('container','warn');
 Cross.message(typeof true); // boolean
 
@@ -86,14 +86,10 @@ let number = 1130403;
 let typeT = 'Easy! Wohooot!! 😄';
 Cross.message(1+number +': '+`${typeT}`);
 
-
-/*
-запускаем, должна вывести в консоль таблицу
-*/
+// запускаем, должна вывести в консоль таблицу
 Cross.launch();
-/*
-с помощью этой команды мы можем узнать что мы можем изменить в конфигурации.
-*/
+
+// с помощью этой команды мы можем узнать что мы можем изменить в конфигурации.
 Cross.config();
 // пример изменения цвета body,по умолчанию darkorange
 Cross.configuration('window','bgdocolor', '#95EFFE');
@@ -103,16 +99,11 @@ Cross.configuration('window','color','red');
 Cross.printLine('Hello Cross.js!');
 Cross.printLine('Container');
 
-// Способы создания компонентов:
-import * as Component from './Framework_Cross/Components/CrossComponents.js';
 // Cross.js и html
 Component.createComponents({
   name: 'cross-anonimus',
   valid: 'CrossAnonimus'
 });
-
-// Canvas
-import {  Application } from './Framework_Cross/CrossApplication/CrossCanvas.js';
 
 // попробуем нарисовать график 😄
 //Application.Scense(340,220,'skyblue');
@@ -132,34 +123,6 @@ if(elem=document.getElementById('up')){
   elem.textContent = 'Hello World App!'
 };
 
-
-/*
-class token {
-  constructor(number){
-    this.number = typeof Number;
-    let NTF = number;
-     this.TokenFabric();
-      let tokenL = new Array(NTF);
-       console.warn(tokenL);
-  };
- 
-  TokenFabric(){
-    console.log('Token fabric true');
-  };
-};
-
-let tokenGlobal = new token();
-
-function newToken(el = new token(this) ){
-console.log('message:new token in true');
-
-  console.info(el);
-    tokenGlobal.TokenFabric();
-};
-newToken(550.151);
-*/
-
-
 let u = new Uint8Array([72,50,50,85]);
 console.info(new TextDecoder().decode(u))
 
@@ -168,5 +131,3 @@ console.info(new TextDecoder().decode(u))
   }).catch(err => {
  console.log('Something went wrong',err);
   });
-  
-  
