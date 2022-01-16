@@ -2,7 +2,7 @@
   "name": "cross-ascii",
   "version": "1.0.0",
   "description": "ASCII",
-  "main": "index.js",
+  "main": "ASCII/Binary/ES6/Scripts/index.js",
   "scripts": {
     "test": "npm install ascii",
     "give-ascii" : "echo \"ASCII\" ",
