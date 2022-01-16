@@ -21,8 +21,8 @@ Cross.js progressiv Framework
 
 ## Installation
 Install dependencies.
-```npm
-npm init
+```bash
+npm 
 ```
 ___
 
