@@ -44,9 +44,7 @@ Object.prototype.ETN = (code,lang) => {
       +`Запрещено использовать буквы.`
     };
   if(lang === 'en'){
-   result = 
-   code.replace(/01000001/g,'A')
-       .replace(/01000010/g, 'B').replace(/01000011/g,'C').replace(/01000100/g, 'D').replace(/01000101/g, 'E').replace(/01000110/g, 'F').replace(/01000111/g, 'G').replace(/01001000/g, 'H').replace(/01001001/g, 'I').replace(/01001010/g, 'J').replace(/01001011/g, 'K').replace(/01001100/g, 'L').replace(/00100000/g,'')
+   let result = code.replace(/01000001/g,'A').replace(/01000010/g, 'B').replace(/01000011/g,'C').replace(/01000100/g, 'D').replace(/01000101/g, 'E').replace(/01000110/g, 'F').replace(/01000111/g, 'G').replace(/01001000/g, 'H').replace(/01001001/g, 'I').replace(/01001010/g, 'J').replace(/01001011/g, 'K').replace(/01001100/g, 'L').replace(/00100000/g,'')
    
      log(result);
   }
