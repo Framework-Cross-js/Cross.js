@@ -6,6 +6,7 @@ console.log('webpack hello!');
 let Cross = require('./powerlevel.js');
 let func = () => console.log("hi"); 
 func.repeat(5);
+alert(1 + 2);
 new Cross.power().repeat(5);
 
 new Cross.App('true');
