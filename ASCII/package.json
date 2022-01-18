@@ -1,0 +1,17 @@
+{
+  "name": "ascii",
+  "version": "1.0.0",
+  "description": "ASCII code",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm install index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Framework-Cross-js/Cross.js/tree/main/ASCII"
+  },
+  "author": "E5war5IT",
+  "license": "MIT"
+}
